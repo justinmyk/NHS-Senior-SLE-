@@ -24,6 +24,7 @@ nav{
   background-color: #5D4949;
   font-family: 'Poppins', sans-serif;
   width: 100%;
+
 }
 .logo{
   color: #FF5733;
@@ -36,6 +37,7 @@ nav{
   display: flex;
   justify-content: space-between;
   width: 45%;
+    z-index: 30;
 }
 .nav-links li{
   list-style: none;
@@ -72,6 +74,8 @@ nav{
   body{
     overflow-x: hidden;
   }
+
+
   .nav-links{
     position: absolute;
     right: 0px;
@@ -192,52 +196,28 @@ footer h2{
 
 
 /* CAROUSEL (SLIDER) */
+.carousel .carousel-item {
+    left:10%;
+    width: 80%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
 
-#slider{
-  overflow: hidden;
-  width: 500px;
-  position:relative;
-  margin: 0 auto;
-}
-#slider figure{
-  position: relative;
-  width: 500%;
-  margin: 0px;
-  left: 0;
-  animation: 20s slider infinite;
-}
-#slider figure img {
-  width: 20%;
-  float: left;
-  height: 300px;
 }
 
-@keyframes slider {
-  0%{
-    left: 0;
-  }
-  20% {
-    left: 0;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75% {
-    left: -300%;
-  }
-  95% {
-    left: -300%
-  }
-  100% {
-    left: -400%;
-  }
+.carousel .carousel-item:first-of-type {
+    background-image: url("https://via.placeholder.com/300.png/f43347/f43347");
+}
+
+.carousel .carousel-item:nth-of-type(2) {
+    background-image: url("http://s9.favim.com/orig/130806/flower-flowers-photography-pink-Favim.com-833641.jpg");
+}
+
+.carousel .carousel-item:last-of-type {
+    background-image: url("https://4.bp.blogspot.com/-pxMLcrD3N7I/UjAMNkqM43I/AAAAAAAAABQ/2-etadUS_48/s640/flowers.jpg");
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 500px;
+    height: 450px;
 }

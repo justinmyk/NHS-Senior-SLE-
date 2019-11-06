@@ -24,6 +24,3 @@ const navSlide = () => {
 }
 
 navSlide();
-
-
-$('.carousel').carousel();

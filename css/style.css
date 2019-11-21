@@ -1,6 +1,6 @@
 /* JUMBOTRON STYLE */
 .jumbotron{
-  background-image:url('../img/Banner.png'), radial-gradient(circle, rgba(82,59,72,1) 0%, rgba(116,82,102,1) 35%, rgba(186,129,161,1) 100%);
+  background-image:url('../img/Banner.png'), linear-gradient(60deg, rgba(0,80,142,1) 0%, rgba(88,145,152,1) 91%);
   height:200px;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -21,14 +21,14 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 7vh;
-  background-color: #5D4949;
+  background-color: #EFDDAC;
   font-family: 'Poppins', sans-serif;
   width: 100%;
   margin-bottom: 100px;
 
 }
 .logo{
-  color: #FF5733;
+  color: #00508E;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -46,7 +46,7 @@ nav{
 }
 
 .nav-links a{
-  color: rgb(226, 226, 266);
+  color: black;
   text-decoration: none;
   letter-spacing: 3px;
   font-size: 14px;
@@ -61,7 +61,7 @@ nav{
 .burger div{
   width: 25px;
   height: 3px;
-  background-color: rgb(226, 226, 226);
+  background-color: black;
   margin: 5px;
 }
 
@@ -81,8 +81,8 @@ nav{
     position: absolute;
     right: 0px;
     height: 100%;
-    top: 27vh;
-    background-color: #5D4949;
+    top: 30vh;
+    background-color: #EFDDAC;
     display: flex;
     flex-direction: column;
     align-items: center;
